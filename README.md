@@ -1,4 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Consideraciones
+La conexión a la base de datos está configurada con las siguientes credenciales:
+      host: 'localhost'
+      user: 'root'
+      password: 'pass'
+      port: 3306
+      database: 'pruebacrud'
+La configuración de la conexión se encuentra en el archivo libs/mysql.js. Si es necesario cambiar las credenciales, por favor, modifique este archivo según sus necesidades.
 
 ## Getting Started
 
